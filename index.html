@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Rama <span>DaifAllah </span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+        
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi , It's <span>Rama</span></h1>
+            <h3>
+                I'm a <span>Web Developer</span>
+            </h3>
+            <p>
+                I’m a Computer Science student at Cairo University passionate about building 
+                responsive and user-friendly web applications using modern technologies 
+                like React and JavaScript.
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/ramadaif">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="www.linkedin.com/in/rama-daif-131381262">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="WhatsApp Image 2026-02-17 at 7.17.24 PM.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="WhatsApp Image 2026-02-17 at 7.17.24 PM.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I believe great websites are not just seen — they are felt.
+
+            I’m Rama, a frontend developer who transforms ideas into engaging and responsive web 
+            experiences. With a strong foundation in modern web technologies and real-world experience, 
+            I focus on building interfaces that are both functional and meaningful.
+
+            Every line of code I write aims to make the user’s experience smoother, simpler, and better.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI / UX Design</h4>
+                    <p>I create intuitive and visually engaging designs focused on user experience. 
+                    From wireframes to final UI, I ensure every detail enhances usability and 
+                    delivers a seamless interaction
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-alt"></i>
+                    <h4>Frontend Development</h4>
+                    <p>I transform designs into fully functional, responsive web applications using 
+                    modern frontend technologies. I focus on clean code, performance, and creating 
+                    smooth user interactions
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-server"></i>
+                    <h4>Backend Development</h4>
+                    <p>I build and manage the server-side of applications, creating APIs and handling 
+                    data efficiently. My goal is to ensure secure, scalable, and smooth performance 
+                    behind the scenes
+                    </p>
+                </div>
+            </div>
+
+  
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="game.png" alt="">
+                <h3>Project 1</h3>
+                <p>A simple and interactive Rock Paper Scissors game built using JavaScript. The player competes against the computer by choosing between rock, paper, or scissors. The game uses random computer choices and real-time result checking to determine the winner. It focuses on logic building, DOM manipulation, and basic game mechanics, making it a fun demonstration of core frontend development skills</p>
+               <a href="https://codepen.io/Rama-Deaf/pen/zxKwmdo" class="btn">Review Project</a>
+            </div>
+
+
+            <div class="project-card">
+                <img src="todolist.png" alt="">
+                <h3>Project 2</h3>
+                <p>A responsive and user-friendly To-Do List application that helps users organize their daily tasks efficiently. Users can add, delete, and mark tasks as completed, with data dynamically updated in the interface. The project demonstrates key JavaScript concepts such as event handling, DOM manipulation, and state management, while emphasizing clean UI design and smooth user experience. 
+                </p>
+               <a href="https://codepen.io/Rama-Deaf/pen/VYKbEpy" class="btn">Review Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" row="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/ramadaif">
+                <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="www.linkedin.com/in/rama-daif-131381262">
+                 <i class="bx bxl-linkedin-square"></i>
+            </a>
+           
+        </div>
+
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#services">Services</a>
+            </li>
+
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+             <li>
+                <a href="#projects">Projects</a>
+            </li>
+             <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+
+        </ul>
+
+        <p class="copyright">
+            &copy Rama DaifAllah | All Rights Reserved
+        </p>
+
+
+    </footer>
+
+
+
+
+    <script src="srcipt.js"></script>
+</body>
+</html>
